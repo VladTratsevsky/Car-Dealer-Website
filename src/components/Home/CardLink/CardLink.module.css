@@ -1,0 +1,93 @@
+.container {
+  display: flex;
+  background-color: #f2f2f2;
+  transition: all 0.7s;
+}
+
+.title {
+  padding: 20px 60px 100px 40px;
+  background-color: transparent;
+  font-size: 1.8rem;
+  line-height: 2rem;
+  font-weight: 300;
+}
+
+.carsinStockContainer {
+  background-color: #fff;
+  padding: 0px 5px;
+}
+
+.carsinStock {
+  background-color: #f2f2f2;
+}
+
+.imgCar {
+  padding: 52px 120px;
+}
+
+.buttonCars {
+  margin: 0px 25px 20px 25px;
+  padding: 10px 30px;
+  font-size: 1.2rem;
+  line-height: 1.2rem;
+  font-weight: 600;
+  border-style: solid;
+  border-width: 0;
+  background-color: #1c69d4;
+  border-color: #0653b6;
+  color: #fff;
+  cursor: pointer;
+}
+
+.testDriveContainer {
+  background-color: #fff;
+}
+
+.testDrive {
+  background-color: #f2f2f2;
+}
+
+.imgDrive {
+  padding: 52px 120px;
+}
+
+.buttonDrive {
+  margin: 0px 25px 20px 25px;
+  padding: 19px 40px;
+  font-size: 1.2rem;
+  line-height: 1.2rem;
+  font-weight: 600;
+  border-style: solid;
+  border-width: 1px;
+  background-color: transparent;
+  border-color: #262626;
+  color: #262626;
+  cursor: pointer;
+}
+
+.getOfferContainer {
+  background-color: #fff;
+  padding: 0px 5px;
+}
+
+.getOffer {
+  background-color: #f2f2f2;
+}
+
+.imgOffer {
+  padding: 52px 120px;
+}
+
+.buttonOffer {
+  margin: 0px 25px 20px 25px;
+  padding: 10px 30px;
+  font-size: 1.2rem;
+  line-height: 1.2rem;
+  font-weight: 600;
+  border-style: solid;
+  border-width: 1px;
+  background-color: transparent;
+  border-color: #262626;
+  color: #262626;
+  cursor: pointer;
+}

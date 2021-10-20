@@ -3,6 +3,8 @@
   display: flex;
   justify-content: center;
   position: relative;
+  margin-bottom: 20px;
+  transition: all 0.7s;
 }
 
 .containerLeft {
@@ -10,6 +12,17 @@
   display: flex;
   justify-content: flex-start;
   position: relative;
+  margin-bottom: 20px;
+  transition: all 0.7s;
+}
+
+.containerRight {
+  overflow: hidden;
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+  margin-bottom: 20px;
+  transition: all 0.7s;
 }
 
 .sliderButtonL {
