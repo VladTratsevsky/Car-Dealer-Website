@@ -1,0 +1,110 @@
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+a:hover {
+  color: rgba(255, 255, 255, 0.856);
+}
+
+.container {
+  padding: 0px 25px;
+}
+
+.navBar {
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+  background: transparent;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+}
+
+.navLogo {
+  margin: 23px;
+  width: 53px;
+  height: 53px;
+  background-image: url(https://www.bmw.by/etc.clientlibs/ds2-webcomponents/clientlibs/clientlib/resources/img/BMW_White_Logo.svg);
+}
+
+.logolink {
+  padding: 26px;
+}
+
+.navlinks {
+  font-size: 1.3rem;
+  line-height: 2rem;
+  font-weight: 700;
+  text-decoration: none;
+  color: #fff;
+  padding: 40px 0px;
+  background: transparent;
+}
+
+.carsLink {
+  position: relative;
+  padding: 0px 20px;
+}
+
+.carsLink::after {
+  position: absolute;
+  bottom: -44px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 0%;
+  content: ".";
+  color: transparent;
+  background: #0653b6;
+  height: 4px;
+}
+
+.carsLink:hover::after {
+  width: 100%;
+  transition: all 0.7s;
+}
+
+.purchaseLink {
+  position: relative;
+  padding: 0px 20px;
+}
+
+.purchaseLink::after {
+  position: absolute;
+  bottom: -44px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 0%;
+  content: ".";
+  color: transparent;
+  background: #0653b6;
+  height: 4px;
+}
+
+.purchaseLink:hover::after {
+  width: 100%;
+  transition: all 0.7s;
+}
+
+.serviceLink {
+  position: relative;
+  padding: 0px 20px;
+}
+
+.serviceLink::after {
+  position: absolute;
+  bottom: -44px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 0%;
+  content: ".";
+  color: transparent;
+  background: #0653b6;
+  height: 4px;
+}
+
+.serviceLink:hover::after {
+  width: 100%;
+  transition: all 0.7s;
+}
