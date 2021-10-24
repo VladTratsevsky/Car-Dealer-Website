@@ -1,0 +1,47 @@
+.container {
+  background-color: #f2f2f2;
+  padding: 5% 20%;
+  margin-bottom: 5%;
+}
+
+.information {
+  border-bottom: 1px solid #bbb;
+  display: flex;
+  justify-content: space-between;
+}
+
+.title {
+  margin-bottom: 40px;
+  font-size: 1.8rem;
+  line-height: 2.3rem;
+  font-weight: 300;
+}
+
+.informationItem {
+  margin-bottom: 10px;
+  font-size: 1rem;
+  line-height: 1.7rem;
+  font-weight: 700;
+  color: #666;
+}
+
+.links {
+  padding-top: 70px;
+  display: flex;
+}
+
+.facebook {
+  display: block;
+  background-image: url(https://www.bmw.by/content/dam/bmw/common/footer/social/facebook-default@2x.png);
+  background-size: cover;
+  width: 50px;
+  height: 50px;
+}
+
+.instagram {
+  display: block;
+  background-image: url(https://www.bmw.by/content/dam/bmw/common/footer/social/instagram-default@2x.png);
+  background-size: cover;
+  width: 50px;
+  height: 50px;
+}

@@ -1,14 +1,16 @@
 .container {
   display: flex;
   background-color: #f2f2f2;
+  margin-bottom: 20px;
 }
 
 .title {
   padding: 20px 60px 100px 40px;
   background-color: transparent;
-  font-size: 1.8rem;
-  line-height: 2rem;
+  font-size: 2rem;
+  line-height: 2.5rem;
   font-weight: 300;
+  width: 40%;
 }
 
 .carsinStockContainer {
@@ -18,10 +20,15 @@
 
 .carsinStock {
   background-color: #f2f2f2;
+  height: 100%;
 }
 
 .imgCar {
-  padding: 52px 120px;
+  background-image: url(./CardLinkImg/car.png);
+  background-size: cover;
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
 }
 
 .buttonCars {
@@ -44,10 +51,15 @@
 
 .testDrive {
   background-color: #f2f2f2;
+  height: 100%;
 }
 
 .imgDrive {
-  padding: 52px 120px;
+  background-image: url(./CardLinkImg/drive.png);
+  background-size: cover;
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
 }
 
 .buttonDrive {
@@ -71,10 +83,15 @@
 
 .getOffer {
   background-color: #f2f2f2;
+  height: 100%;
 }
 
 .imgOffer {
-  padding: 52px 120px;
+  background-image: url(./CardLinkImg/offer.png);
+  background-size: cover;
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
 }
 
 .buttonOffer {

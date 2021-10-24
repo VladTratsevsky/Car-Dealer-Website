@@ -1,0 +1,12 @@
+.containerCarsCard {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.title {
+  padding-left: 12%;
+  padding-bottom: 30px;
+  font-size: 1.8rem;
+  line-height: 2.3rem;
+  font-weight: 300;
+}

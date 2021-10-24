@@ -1,0 +1,22 @@
+[
+  {
+    "id": 0,
+    "img": "./CarsImg/the-3.png",
+    "title": "BMW 3 серии Седан",
+    "subTitle": "БЕНЗИН / ДИЗЕЛЬ"
+  },
+
+  {
+    "id": 1,
+    "img": "./CarsImg/the-5.png",
+    "title": "BMW 5 серии",
+    "subTitle": "БЕНЗИН / ДИЗЕЛЬ"
+  },
+
+  {
+    "id": 2,
+    "img": "./CarsImg/the-7.png",
+    "title": "BMW 7 серии",
+    "subTitle": "БЕНЗИН / ДИЗЕЛЬ / ПЛАГИН-ГИБРИД"
+  }
+]

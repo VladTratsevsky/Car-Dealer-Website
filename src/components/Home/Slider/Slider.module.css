@@ -7,24 +7,6 @@
   transition: all 0.7s;
 }
 
-.containerLeft {
-  overflow: hidden;
-  display: flex;
-  justify-content: flex-start;
-  position: relative;
-  margin-bottom: 20px;
-  transition: all 0.7s;
-}
-
-.containerRight {
-  overflow: hidden;
-  display: flex;
-  justify-content: flex-end;
-  position: relative;
-  margin-bottom: 20px;
-  transition: all 0.7s;
-}
-
 .sliderButtonL {
   font-size: 40px;
   padding: 167px 10px;
@@ -45,28 +27,30 @@
 
 .containerVisible {
   display: inline-flex;
+  transition: all 0.3s cubic-bezier(0.75, 0.21, 0.77, 0.63);
 }
 
 .cardThe3 {
   background-image: url(https://www.bmw.by/content/dam/bmw/common/all-models/3-series/sedan/2018/inspire/bmw-3series-3er-inspire-phev-sp-xxl.jpg/jcr:content/renditions/cq5dam.resized.img.1680.large.time1563444803254.jpg);
   background-size: cover;
-  height: 360px;
-  width: 760px;
+  height: 45vh;
+  width: 60vw;
 }
 
 .cardThe5 {
+  margin: 0px 7px;
   background-image: url(https://autoidea.by/assets/images/products/5-series/the-new-5-2020.jpg);
   background-size: cover;
   height: 360px;
-  width: 760px;
-  margin: 0px 7px;
+  height: 45vh;
+  width: 60vw;
 }
 
 .cardThe7 {
   background-image: url(https://www.bmw.by/content/dam/bmw/common/all-models/7-series/sedan/2019/inspire/bmw-7series-sedan-inspire-sp-desktop.jpg/jcr:content/renditions/cq5dam.resized.img.1680.large.time1566489925057.jpg);
   background-size: cover;
-  height: 360px;
-  width: 760px;
+  height: 45vh;
+  width: 60vw;
 }
 
 .title {

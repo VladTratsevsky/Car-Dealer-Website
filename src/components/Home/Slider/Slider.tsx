@@ -29,32 +29,41 @@ const slideThe7 = () => {
   );
 };
 
+const defaultTranslateX = 653;
+
 export const Slider = () => {
-  const [container, setContainer] = useState(styles.container);
+  const [translateX, setTranslateX] = useState(0);
 
   return (
-    <div className={container}>
+    <div className={styles.container}>
+      <div
+        className={styles.containerVisible}
+        style={{ transform: `translateX(${translateX}px)` }}
+      >
+        {slideThe3()}
+        {slideThe5()}
+        {slideThe7()}
+      </div>
       <button
         className={styles.sliderButtonL}
-        onClick={() =>
-          setContainer(
-            styles.containerRight ? styles.container : styles.containeLeft
-          )
-        }
+        onClick={() => {
+          if (translateX !== defaultTranslateX) {
+            setTranslateX(translateX + defaultTranslateX);
+          }
+        }}
       >
         &#10094;
       </button>
       <button
         className={styles.sliderButtonR}
-        onClick={() => setContainer(styles.containerRight)}
+        onClick={() => {
+          if (translateX !== -defaultTranslateX) {
+            setTranslateX(translateX - defaultTranslateX);
+          }
+        }}
       >
         &#10095;
       </button>
-      <div className={styles.containerVisible}>
-        {slideThe3()}
-        {slideThe5()}
-        {slideThe7()}
-      </div>
     </div>
   );
 };

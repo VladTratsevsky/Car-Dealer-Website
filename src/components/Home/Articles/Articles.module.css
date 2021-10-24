@@ -1,0 +1,50 @@
+.container {
+  padding: 40px 5%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.card {
+  width: 40%;
+  border: 1px solid #e6e6e6;
+  padding: 20px;
+}
+
+.cardImgDiller {
+  width: 100%;
+  height: 40vh;
+  background-image: url(https://www.bmw.by/content/dam/bmw/marketB4R1/common/images/dlrhowto3.jpg/jcr:content/renditions/cq5dam.resized.img.585.low.time1556538305537.jpg);
+  background-size: cover;
+  margin-bottom: 20px;
+}
+
+.cardImgMoment {
+  width: 100%;
+  height: 70%;
+  background-image: url(https://www.bmw.by/content/dam/bmw/marketB4R1/bmw_by/home/meduimteaser/bmw-gklplus-home-teaser-890x501.jpg/jcr:content/renditions/cq5dam.resized.img.585.low.time1508139833376.jpg);
+  background-size: cover;
+  margin-bottom: 20px;
+}
+
+.titleDiller {
+  font-size: 2rem;
+  line-height: 2.5rem;
+  font-weight: 300;
+  margin-bottom: 40px;
+}
+
+.titleMoment {
+  font-size: 2rem;
+  line-height: 2.5rem;
+  font-weight: 300;
+  margin-bottom: 10px;
+}
+
+.button {
+  background: transparent;
+  font-size: 1rem;
+  font-weight: 700;
+  border: 1px solid black;
+  padding: 10px 30px;
+  cursor: pointer;
+}
