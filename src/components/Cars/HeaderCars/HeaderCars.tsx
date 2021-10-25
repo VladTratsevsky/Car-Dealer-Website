@@ -1,8 +1,7 @@
-import styles from "./Header.module.css";
-import { NavLink } from "react-router-dom";
-import { NavBar } from "./NavBar/NavBar";
+import { NavBar } from "../../Home/Header/NavBar/NavBar";
+import styles from "./HeaderCars.module.css";
 
-export const Header = () => {
+export const CarsHeader = () => {
   return (
     <div className={styles.container}>
       <NavBar />
@@ -13,9 +12,6 @@ export const Header = () => {
           ОТКРОЙТЕ ДЛЯ СЕБЯ ЛУЧШИЕ ПРЕДЛОЖЕНИЯ НА ВПЕЧАТЛЯЮЩИЙ<br></br>{" "}
           МОДЕЛЬНЫЙ РЯД BMW{" "}
         </h3>
-        <NavLink to="/cars" className={styles.button}>
-          Узнайте больше
-        </NavLink>
       </div>
     </div>
   );

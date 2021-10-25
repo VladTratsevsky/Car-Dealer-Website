@@ -1,0 +1,27 @@
+.container {
+  background-image: url(https://www.bmw.by/content/dam/bmw/marketB4R1/common/topics/offers-and-services/campaigns/fast-start-campaign/201207_BMW_Landingpage_teaser-image_XXL_1680-x-756_V2.jpg/jcr:content/renditions/cq5dam.resized.img.1680.large.time1607508197481.jpg);
+  background-size: cover;
+  color: #fff;
+  cursor: pointer;
+  font-family: Helvetica;
+  margin-bottom: 7px;
+  height: 80vh;
+}
+
+.content {
+  padding: 5% 6% 0% 6%;
+}
+
+.title {
+  font-size: 3.2rem;
+  line-height: 4rem;
+  font-weight: 300;
+  margin-bottom: 20px;
+}
+
+.subTitle {
+  font-size: 1.6rem;
+  line-height: 2rem;
+  font-weight: 300;
+  padding-bottom: 30vh;
+}

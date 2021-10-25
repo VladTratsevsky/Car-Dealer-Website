@@ -1,12 +1,13 @@
-import { NavBar } from "../Home/Header/NavBar/NavBar";
+import { Footer } from "../Home/Footer/Footer";
+import { CardDescriptionCars } from "./CardDescriptionCard/CardDescriptionCard";
+import { CarsHeader } from "./HeaderCars/HeaderCars";
 
 export const Cars = () => {
   return (
-    <div>
-      <NavBar />
-      <h1>
-        <p>Cars</p>
-      </h1>
-    </div>
+    <>
+      <CarsHeader />
+      <CardDescriptionCars />
+      <Footer />
+    </>
   );
 };

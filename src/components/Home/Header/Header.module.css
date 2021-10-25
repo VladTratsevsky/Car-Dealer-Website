@@ -5,6 +5,7 @@
   cursor: pointer;
   font-family: Helvetica;
   margin-bottom: 7px;
+  height: 80vh;
 }
 
 .content {
@@ -22,12 +23,11 @@
   font-size: 1.6rem;
   line-height: 2rem;
   font-weight: 300;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
 }
 
 .button {
   padding: 15px 90px;
-  margin-bottom: 180px;
   font-size: 18px;
   font-weight: bold;
   background-color: #1c69d4;

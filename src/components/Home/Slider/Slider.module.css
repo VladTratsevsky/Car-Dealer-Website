@@ -27,7 +27,7 @@
 
 .containerVisible {
   display: inline-flex;
-  transition: all 0.3s cubic-bezier(0.75, 0.21, 0.77, 0.63);
+  transition: all 0.4s cubic-bezier(0.75, 0.21, 0.77, 0.63);
 }
 
 .cardThe3 {
@@ -41,7 +41,6 @@
   margin: 0px 7px;
   background-image: url(https://autoidea.by/assets/images/products/5-series/the-new-5-2020.jpg);
   background-size: cover;
-  height: 360px;
   height: 45vh;
   width: 60vw;
 }
