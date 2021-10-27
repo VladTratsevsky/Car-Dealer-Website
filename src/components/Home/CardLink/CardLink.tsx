@@ -1,6 +1,10 @@
+import { useState } from "react";
+import { TestDrive } from "../../Modal/TestDrive/TestDrive";
 import styles from "./CardLink.module.css";
 
 export const CardLink = () => {
+  const [isVisible, setisVisible] = useState(false);
+
   return (
     <div className={styles.container}>
       <h2 className={styles.title}>
@@ -17,7 +21,13 @@ export const CardLink = () => {
       <div className={styles.testDriveContainer}>
         <div className={styles.testDrive}>
           <div className={styles.imgDrive}></div>
-          <button className={styles.buttonDrive}> Tест-драйв </button>
+          <button
+            className={styles.buttonDrive}
+            onClick={(e) => setisVisible(true)}
+          >
+            {" "}
+            Tест-драйв{" "}
+          </button>
         </div>
       </div>
       <div className={styles.getOfferContainer}>
@@ -28,6 +38,7 @@ export const CardLink = () => {
           </button>
         </div>
       </div>
+      <TestDrive onClose={() => setisVisible(false)} isVisible={isVisible} />
     </div>
   );
 };

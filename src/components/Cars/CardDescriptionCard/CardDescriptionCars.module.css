@@ -41,6 +41,17 @@
   background: transparent;
 }
 
+.button-active {
+  font-size: 1.2rem;
+  line-height: 1.25rem;
+  font-weight: 700;
+  color: #262626;
+  padding: 40px 70px;
+  margin-right: 10px;
+  border-bottom: 5px solid #262626;
+  background: transparent;
+}
+
 .containerCard {
   display: flex;
   justify-content: center;
@@ -178,6 +189,10 @@
   background-color: transparent;
 }
 
+.sliderButtonL-deactive {
+  display: none;
+}
+
 .sliderButtonR {
   font-size: 40px;
   border: none;
@@ -185,4 +200,8 @@
   position: absolute;
   left: 105%;
   background-color: transparent;
+}
+
+.sliderButtonR-deactive {
+  display: none;
 }

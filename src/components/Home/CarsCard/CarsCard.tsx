@@ -17,6 +17,7 @@ export const CarsCard = () => {
               img={item.img}
               title={item.title}
               subtitle={item.subTitle}
+              linkto={item.linkto}
             />
           );
         })}

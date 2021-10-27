@@ -3,7 +3,7 @@
 }
 
 .Header {
-  background-image: url("https://www.bayernkraft.by/assets/img/auto-optimizacii/bmw3/BMW%203%20series%20(main).jpg");
+  background-image: url("https://autoidea.by/assets/images/products/5-series/the-new-5-2020.jpg");
   background-size: cover;
   height: 80vh;
   width: 100vw;
@@ -55,14 +55,14 @@
 }
 
 .descriptionImg {
-  background-image: url(https://www.bmw.by/content/dam/bmw/common/all-models/3-series/sedan/2018/inspire/bmw-3series-3er-inspire-next-page-teaser.jpg/jcr:content/renditions/cq5dam.resized.img.585.low.time1537523762370.jpg);
+  background-image: url(https://autoidea.by/assets/images/products/5-series/bmw-5-series-sedan-highlights-highlight-desktop-01.jpg);
   background-size: cover;
   width: 50%;
   margin-left: 20px;
 }
 
 .designImg {
-  background-image: url("https://www.bayernkraft.by/assets/img/auto-optimizacii/bmw3/BMW%203%20series%20(back).jpg");
+  background-image: url("https://autoidea.by/assets/images/products/5-series/bmw-5-series-sedan-highlights-highlight-desktop-05.jpg");
   background-size: cover;
   width: 60vw;
   height: 40vh;
@@ -141,7 +141,7 @@
 }
 
 .rightTopImg {
-  background-image: url(https://www.bmw.by/content/bmw/marketB4R1/bmw_by/ru_BY/all-models/3-series/sedan/2018/bmw-3-series-sedan-inspire/jcr:content/par/mosaicgallery_8135/items/mosaicgalleryitem_d1/image.transform/mosaic963/image.1562609667879.jpg);
+  background-image: url(https://www.bmw.by/content/bmw/marketB4R1/bmw_by/ru_BY/all-models/5-series/sedan/2020/bmw-5-series-sedan-highlights/jcr:content/par/mosaicgallery_4b17/items/mosaicgalleryitem_97/image.transform/mosaic963/image.1599218510188.jpg);
   background-size: cover;
   width: 100%;
   height: 90vh;

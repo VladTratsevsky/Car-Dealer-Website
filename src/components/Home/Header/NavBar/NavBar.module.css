@@ -9,6 +9,10 @@ a:hover {
 
 .container {
   padding: 0px 10%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100vw;
 }
 
 .navBar {

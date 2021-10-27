@@ -1,11 +1,14 @@
 import { useState } from "react";
 import { NavLink } from "react-router-dom";
+import { TestDrive } from "../../Modal/TestDrive/TestDrive";
 import styles from "./CardDescriptionCars.module.css";
 
 const defaultTranslateX = 1600;
 
 export const CardDescriptionCars = () => {
   const [translateX, setTranslateX] = useState(0);
+  const [model, setModel] = useState(5);
+  const [isVisible, setisVisible] = useState(false);
 
   return (
     <div className={styles.container}>
@@ -14,25 +17,35 @@ export const CardDescriptionCars = () => {
       </h3>
       <div className={styles.containerButton}>
         <button
-          className={styles.button}
+          className={`${styles.button} ${
+            model === 3 ? styles["button-active"] : ""
+          }`}
           onClick={() => {
             setTranslateX(1600);
+            setModel(3);
           }}
         >
           THE 3
         </button>
         <button
-          className={styles.button}
+          className={`${styles.button} ${
+            model === 5 ? styles["button-active"] : ""
+          }`}
+          style={{}}
           onClick={() => {
             setTranslateX(0);
+            setModel(5);
           }}
         >
           THE 5
         </button>
         <button
-          className={styles.button}
+          className={`${styles.button} ${
+            model === 7 ? styles["button-active"] : ""
+          }`}
           onClick={() => {
             setTranslateX(-1600);
+            setModel(7);
           }}
         >
           THE 7
@@ -62,8 +75,13 @@ export const CardDescriptionCars = () => {
                 персональное предложение.
               </p>
               <div className={styles.descriotionButton}>
-                <button className={styles.drive}>тест-драйв</button>
-                <NavLink to="/the-3" className={styles.offer}>
+                <button
+                  className={styles.drive}
+                  onClick={(e) => setisVisible(true)}
+                >
+                  тест-драйв
+                </button>
+                <NavLink to="/cars/the-3" className={styles.offer}>
                   Узнать больше
                 </NavLink>
               </div>
@@ -91,8 +109,15 @@ export const CardDescriptionCars = () => {
                 персональное предложение.
               </p>
               <div className={styles.descriotionButton}>
-                <button className={styles.drive}>тест-драйв</button>
-                <button className={styles.offer}>Узнать больше</button>
+                <button
+                  className={styles.drive}
+                  onClick={(e) => setisVisible(true)}
+                >
+                  тест-драйв
+                </button>
+                <NavLink to="/cars/the-5" className={styles.offer}>
+                  Узнать больше
+                </NavLink>
               </div>
             </div>
           </div>
@@ -119,15 +144,27 @@ export const CardDescriptionCars = () => {
                 персональное предложение.
               </p>
               <div className={styles.descriotionButton}>
-                <button className={styles.drive}>тест-драйв</button>
-                <button className={styles.offer}>Узнать больше</button>
+                <button
+                  className={styles.drive}
+                  onClick={(e) => setisVisible(true)}
+                >
+                  тест-драйв
+                </button>
+                <NavLink to="/cars/the-7" className={styles.offer}>
+                  Узнать больше
+                </NavLink>
               </div>
             </div>
           </div>
         </div>
         <button
-          className={styles.sliderButtonL}
+          className={`${styles.sliderButtonL} ${
+            model === 3 ? styles["sliderButtonL-deactive"] : ""
+          }`}
           onClick={() => {
+            if (translateX < 1600) {
+              setModel(model - 2);
+            }
             if (translateX !== defaultTranslateX) {
               setTranslateX(translateX + defaultTranslateX);
             }
@@ -136,8 +173,13 @@ export const CardDescriptionCars = () => {
           &#10094;
         </button>
         <button
-          className={styles.sliderButtonR}
+          className={`${styles.sliderButtonR} ${
+            model === 7 ? styles["sliderButtonR-deactive"] : ""
+          }`}
           onClick={() => {
+            if (translateX > -1600) {
+              setModel(model + 2);
+            }
             if (translateX !== -defaultTranslateX) {
               setTranslateX(translateX - defaultTranslateX);
             }
@@ -146,6 +188,7 @@ export const CardDescriptionCars = () => {
           &#10095;
         </button>
       </div>
+      <TestDrive onClose={() => setisVisible(false)} isVisible={isVisible} />
     </div>
   );
 };

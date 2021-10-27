@@ -3,7 +3,7 @@
 }
 
 .Header {
-  background-image: url("https://www.bayernkraft.by/assets/img/auto-optimizacii/bmw3/BMW%203%20series%20(main).jpg");
+  background-image: url("https://www.bmw.by/content/dam/bmw/common/all-models/7-series/sedan/2019/inspire/bmw-7series-sedan-inspire-sp-desktop.jpg/jcr:content/renditions/cq5dam.resized.img.1680.large.time1566489925057.jpg");
   background-size: cover;
   height: 80vh;
   width: 100vw;
@@ -55,14 +55,14 @@
 }
 
 .descriptionImg {
-  background-image: url(https://www.bmw.by/content/dam/bmw/common/all-models/3-series/sedan/2018/inspire/bmw-3series-3er-inspire-next-page-teaser.jpg/jcr:content/renditions/cq5dam.resized.img.585.low.time1537523762370.jpg);
+  background-image: url(https://autoidea.by/assets/images/products/7-series-long/bmw-7series-sedan-inspire-gallery-02-slide-01-desktop.jpg);
   background-size: cover;
   width: 50%;
   margin-left: 20px;
 }
 
 .designImg {
-  background-image: url("https://www.bayernkraft.by/assets/img/auto-optimizacii/bmw3/BMW%203%20series%20(back).jpg");
+  background-image: url("https://autoidea.by/assets/images/products/7-series-long/bmw-7series-sedan-inspire-gallery-02-slide-03-desktop.jpg");
   background-size: cover;
   width: 60vw;
   height: 40vh;
@@ -141,7 +141,7 @@
 }
 
 .rightTopImg {
-  background-image: url(https://www.bmw.by/content/bmw/marketB4R1/bmw_by/ru_BY/all-models/3-series/sedan/2018/bmw-3-series-sedan-inspire/jcr:content/par/mosaicgallery_8135/items/mosaicgalleryitem_d1/image.transform/mosaic963/image.1562609667879.jpg);
+  background-image: url(https://autoidea.by/assets/images/products/7-series/bmw-7series-sedan-inspire-highlight-01-desktop.jpg);
   background-size: cover;
   width: 100%;
   height: 90vh;
@@ -150,7 +150,7 @@
 
 .salon {
   margin-bottom: 20px;
-  width: 80%;
+  width: 90%;
 }
 
 .bottomLeft {
@@ -159,4 +159,5 @@
 
 .bottomRight {
   height: 30vh;
+  width: 30vw;
 }

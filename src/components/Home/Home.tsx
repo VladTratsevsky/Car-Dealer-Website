@@ -13,7 +13,6 @@ export const Home = () => {
       <CardLink />
       <CarsCard />
       <Articles />
-      <Footer />
     </div>
   );
 };
