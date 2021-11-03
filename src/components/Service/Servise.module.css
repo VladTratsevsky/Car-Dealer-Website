@@ -1,0 +1,192 @@
+.header {
+  background-image: url(https://www.bmw.by/content/dam/bmw/common/topics/offers-and-services/personal-services/warranty/bmw-warranty.jpg/jcr:content/renditions/cq5dam.resized.img.1185.large.time1448060787676.jpg);
+  background-size: cover;
+  height: 80vh;
+}
+
+.title {
+  font-size: 3.2rem;
+  line-height: 4rem;
+  font-weight: 300;
+  color: #fff;
+  padding: 25vh 5%;
+}
+
+.container {
+  padding: 0px 6%;
+  overflow: hidden;
+  height: 80vh;
+}
+
+.containerTitle {
+  font-size: 2.6rem;
+  line-height: 3rem;
+  font-weight: 300;
+  padding: 70px 0px 50px 0px;
+  margin-bottom: 30px;
+}
+
+.containerButton {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.button {
+  font-size: 1.2rem;
+  line-height: 1.25rem;
+  font-weight: 700;
+  color: #262626bb;
+  padding: 20px 40px;
+  margin-right: 10px;
+  border-bottom: 5px solid #2626262f;
+  background: transparent;
+  transition: all 0.25s linear;
+  cursor: pointer;
+}
+
+.button:hover {
+  font-size: 1.2rem;
+  line-height: 1.25rem;
+  font-weight: 700;
+  color: #262626;
+  padding: 20px 40px;
+  margin-right: 10px;
+  border-bottom: 5px solid #262626;
+  background: transparent;
+}
+
+.button-active {
+  font-size: 1.2rem;
+  line-height: 1.25rem;
+  font-weight: 700;
+  color: #262626;
+  padding: 20px 40px;
+  margin-right: 10px;
+  border-bottom: 5px solid #262626;
+  background: transparent;
+}
+
+.containerCard {
+  display: flex;
+  justify-content: flex-start;
+  position: relative;
+  transition: all 0.7s;
+}
+
+.containerCardVisible {
+  display: inline-flex;
+  transition: all 0.5s ease-in;
+}
+
+.cardMaintenance {
+  width: 100vw;
+  height: 40vh;
+  display: flex;
+}
+
+.imgMaintenance {
+  width: 40vw;
+  height: 40vh;
+  background-image: url("https://bayernkraft.by/assets/img/servis-i-zapchasti/planovoe-to.jpg");
+  background-size: 100% 100%;
+  margin-right: 20px;
+}
+
+.cardOil {
+  width: 100vw;
+  padding: 0px 2%;
+  display: flex;
+}
+
+.imgOil {
+  width: 40vw;
+  height: 40vh;
+  background-image: url(https://bayernkraft.by/assets/img/servis-i-zapchasti/maslo.jpg);
+  background-size: cover;
+  margin-right: 20px;
+}
+
+.cardSuspension {
+  width: 100vw;
+  padding: 0px 2%;
+  display: flex;
+}
+
+.imgSuspension {
+  width: 40vw;
+  height: 40vh;
+  background-image: url(https://bayernkraft.by/assets/img/servis-i-zapchasti/remont-podveski.jpg);
+  background-size: cover;
+  margin-right: 20px;
+}
+
+.cardBrakes {
+  width: 100vw;
+  padding: 0px 2%;
+  display: flex;
+}
+
+.imgBrakes {
+  width: 40vw;
+  height: 40vh;
+  background-image: url(https://bayernkraft.by/assets/img/servis-i-zapchasti/tormoz-sistema.jpg);
+  background-size: cover;
+  margin-right: 20px;
+}
+
+.cardEngine {
+  width: 100vw;
+  padding: 0px 2%;
+  display: flex;
+}
+
+.imgEngine {
+  width: 40vw;
+  height: 40vh;
+  background-image: url(https://bayernkraft.by/assets/img/servis-i-zapchasti/dvigatel.png);
+  background-size: cover;
+  margin-right: 20px;
+}
+
+.cardTire {
+  width: 100vw;
+  padding: 0px 2%;
+  display: flex;
+}
+
+.imgTire {
+  width: 40vw;
+  height: 40vh;
+  background-image: url(https://bayernkraft.by/assets/img/servis-i-zapchasti/shinomontazh.jpg);
+  background-size: cover;
+  margin-right: 20px;
+}
+
+.description {
+  width: 50%;
+}
+
+.descriotionTitle {
+  font-size: 1.7rem;
+  line-height: 2rem;
+  font-weight: 300;
+  margin-bottom: 20px;
+}
+
+.descriotionText {
+  font-size: 1.3rem;
+  line-height: 1.7rem;
+  font-weight: 300;
+  margin-bottom: 20px;
+}
+
+.descriotionSubText {
+  font-size: 1.3rem;
+  line-height: 1.7rem;
+  font-weight: 300;
+  margin-bottom: 30px;
+}
+
+.descriotionButton {
+  display: flex;
+}

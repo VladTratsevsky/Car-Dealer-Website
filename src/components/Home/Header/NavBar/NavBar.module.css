@@ -16,6 +16,7 @@ a:hover {
 }
 
 .navBar {
+  height: 109px;
   display: flex;
   justify-content: space-between;
   font-size: 20px;
@@ -35,80 +36,36 @@ a:hover {
 }
 
 .navlinks {
+  display: flex;
   font-size: 1.3rem;
   line-height: 2rem;
   font-weight: 700;
   text-decoration: none;
   color: #fff;
-  padding: 40px 0px;
+  padding-top: 40px;
   background: transparent;
 }
 
-.carsLink {
+.navLink {
   position: relative;
   padding: 0px 20px;
+  margin-bottom: 1px;
 }
 
-.carsLink::after {
+.navLink::after {
   position: absolute;
-  bottom: -44px;
+  top: 62px;
   left: 0;
-  right: 0;
-  margin: auto;
-  width: 0%;
-  content: ".";
-  color: transparent;
-  background: #0653b6;
-  height: 4px;
-}
-
-.carsLink:hover::after {
+  display: inline-block;
   width: 100%;
-  transition: all 0.7s;
+  content: "";
+  border-bottom: 5px solid #0653b6;
+  transform: scaleX(0);
+  transform-origin: right center;
+  transition: transform 0.25s linear;
 }
 
-.purchaseLink {
-  position: relative;
-  padding: 0px 20px;
-}
-
-.purchaseLink::after {
-  position: absolute;
-  bottom: -44px;
-  left: 0;
-  right: 0;
-  margin: auto;
-  width: 0%;
-  content: ".";
-  color: transparent;
-  background: #0653b6;
-  height: 4px;
-}
-
-.purchaseLink:hover::after {
-  width: 100%;
-  transition: all 0.7s;
-}
-
-.serviceLink {
-  position: relative;
-  padding: 0px 20px;
-}
-
-.serviceLink::after {
-  position: absolute;
-  bottom: -44px;
-  left: 0;
-  right: 0;
-  margin: auto;
-  width: 0%;
-  content: ".";
-  color: transparent;
-  background: #0653b6;
-  height: 4px;
-}
-
-.serviceLink:hover::after {
-  width: 100%;
-  transition: all 0.7s;
+.navLink:hover::after {
+  transform: scaleX(1);
+  transform-origin: left center;
 }

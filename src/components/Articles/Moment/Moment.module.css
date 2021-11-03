@@ -1,0 +1,62 @@
+.header {
+  background-image: url(https://www.bmw.by/content/dam/bmw/common/topics/fascination-bmw/bmw-luxury-class/bmw-gklplus-onepager-sp-xxl.jpg/jcr:content/renditions/cq5dam.resized.img.1680.large.time1515686080964.jpg);
+  background-size: cover;
+  height: 80vh;
+}
+
+.title {
+  padding: 30vh 0px 0px 5%;
+  font-size: 3.2rem;
+  line-height: 4rem;
+  font-weight: 300;
+  color: #fff;
+}
+
+.titleText {
+  display: flex;
+  justify-content: space-between;
+  padding: 5%;
+}
+
+.text {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  font-weight: 300;
+  margin: 20px;
+}
+
+.pursuitImg {
+  background-image: url(https://www.bmw.by/content/dam/bmw/common/topics/fascination-bmw/bmw-luxury-class/update-sagmeister/bmw-gklplus-onepager-bold-voices-cp-xxl.jpg/jcr:content/renditions/cq5dam.resized.img.1680.large.time1523541783812.jpg);
+  background-size: cover;
+  height: 80vh;
+  padding-top: 10%;
+  margin-bottom: 5%;
+}
+
+.designerImg {
+  background-image: url(https://www.bmw.by/content/dam/bmw/common/topics/fascination-bmw/bmw-luxury-class/update-sagmeister/bmw-gklplus-onepager-sagmeister-cp-xxl.jpg/jcr:content/renditions/cq5dam.resized.img.1680.large.time1523542718878.jpg);
+  background-size: cover;
+  height: 65vh;
+  padding-right: 70%;
+  margin-top: 5%;
+}
+
+.musicDiscImg {
+  background-image: url(https://www.bmw.by/content/dam/bmw/common/topics/fascination-bmw/bmw-luxury-class/update-sagmeister/bmw-gklplus-onepager-sagmeister-ms-01.jpg/jcr:content/renditions/cq5dam.resized.img.1185.large.time1523549705943.jpg);
+  background-size: cover;
+  height: 65vh;
+  margin: 0px 5%;
+}
+
+.articleTitle {
+  font-size: 2rem;
+  line-height: 2.5rem;
+  font-weight: 300;
+  padding: 5% 60% 0px 7%;
+}
+
+.exclusiveImg {
+  background-image: url(https://www.bmw.by/content/dam/bmw/common/topics/fascination-bmw/bmw-luxury-class/bmw-gklplus-onepager-7-nautorswan-sd-01.jpg/jcr:content/renditions/cq5dam.resized.img.1185.large.time1504101778029.jpg);
+  background-size: cover;
+  height: 80vh;
+}

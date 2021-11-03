@@ -95,15 +95,14 @@
 }
 
 .buttonOffer {
+  text-align: center;
   margin: 0px 25px 20px 25px;
   padding: 10px 30px;
   font-size: 1.2rem;
   line-height: 1.2rem;
   font-weight: 600;
-  border-style: solid;
-  border-width: 1px;
+  border: 1px solid #262626;
   background-color: transparent;
-  border-color: #262626;
   color: #262626;
   cursor: pointer;
 }

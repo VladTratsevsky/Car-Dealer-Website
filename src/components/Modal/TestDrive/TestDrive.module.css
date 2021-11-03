@@ -16,7 +16,7 @@
   background-size: cover;
   display: flex;
   flex-direction: column;
-  z-index: 2;
+  z-index: 3;
 }
 
 .containerClose {
@@ -57,13 +57,14 @@
 }
 
 .containerInner {
-  text-align: center;
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   flex-direction: column;
   padding: 20px;
   border: 1px solid rgba(0, 0, 0, 0.425);
   border-radius: 2px;
+  background-color: white;
+  z-index: 3;
 }
 
 .inner {
@@ -79,4 +80,13 @@
   color: #fff;
   background-color: #1c69d4;
   margin-top: 10px;
+  cursor: pointer;
+}
+
+.button :hover {
+  padding: 10px 40px;
+  color: #fff;
+  background-color: #1753a8;
+  margin-top: 10px;
+  cursor: pointer;
 }

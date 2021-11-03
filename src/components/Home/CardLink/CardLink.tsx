@@ -1,9 +1,17 @@
 import { useState } from "react";
+import { NavLink } from "react-router-dom";
 import { TestDrive } from "../../Modal/TestDrive/TestDrive";
 import styles from "./CardLink.module.css";
+import { useHistory } from "react-router-dom";
 
 export const CardLink = () => {
   const [isVisible, setisVisible] = useState(false);
+
+  const history = useHistory();
+
+  const handleClick = () => {
+    history.push("/purchase");
+  };
 
   return (
     <div className={styles.container}>
@@ -25,15 +33,19 @@ export const CardLink = () => {
             className={styles.buttonDrive}
             onClick={(e) => setisVisible(true)}
           >
-            {" "}
-            Tест-драйв{" "}
+            Tест-драйв
           </button>
         </div>
       </div>
       <div className={styles.getOfferContainer}>
         <div className={styles.getOffer}>
           <div className={styles.imgOffer}></div>
-          <button className={styles.buttonOffer}>
+          <button
+            className={styles.buttonOffer}
+            onClick={() => {
+              handleClick();
+            }}
+          >
             Получить<br></br> предложение
           </button>
         </div>

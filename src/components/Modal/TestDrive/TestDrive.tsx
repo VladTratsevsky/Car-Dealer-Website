@@ -35,7 +35,7 @@ export const TestDrive = ({ isVisible, onClose }: Ivisible) => {
           />
           <input
             className={styles.inner}
-            type="number"
+            type="numbers"
             placeholder="Мобильный телефон"
           />
           <button className={styles.button}>Отправить</button>
