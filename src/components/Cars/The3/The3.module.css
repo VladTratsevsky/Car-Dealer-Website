@@ -1,0 +1,162 @@
+.none {
+  display: none;
+}
+
+.Header {
+  background-image: url("https://www.bayernkraft.by/assets/img/auto-optimizacii/bmw3/BMW%203%20series%20(main).jpg");
+  background-size: cover;
+  height: 80vh;
+  width: 100vw;
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  z-index: -1;
+}
+
+.headerTitle {
+  font-size: 3.2rem;
+  line-height: 3.5rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #fff;
+  padding: 230px 10%;
+}
+
+.content {
+  background-color: #fff;
+  padding: 5% 5%;
+  z-index: 2;
+}
+
+.contentTitle {
+  text-transform: uppercase;
+  font-size: 2.2rem;
+  line-height: 2.5rem;
+  font-weight: 300;
+  margin-bottom: 30px;
+}
+
+.contentContainer {
+  display: flex;
+  padding: 20px 0px;
+}
+
+.text {
+  font-size: 1.4rem;
+  line-height: 1.9rem;
+  font-weight: 300;
+  width: 50%;
+}
+
+.textMotor {
+  font-size: 1.4rem;
+  line-height: 1.9rem;
+  font-weight: 300;
+}
+
+.descriptionImg {
+  background-image: url(https://www.bmw.by/content/dam/bmw/common/all-models/3-series/sedan/2018/inspire/bmw-3series-3er-inspire-next-page-teaser.jpg/jcr:content/renditions/cq5dam.resized.img.585.low.time1537523762370.jpg);
+  background-size: cover;
+  width: 50%;
+  margin-left: 20px;
+}
+
+.designImg {
+  background-image: url("https://www.bayernkraft.by/assets/img/auto-optimizacii/bmw3/BMW%203%20series%20(back).jpg");
+  background-size: cover;
+  width: 60vw;
+  height: 40vh;
+  margin-right: 20px;
+}
+
+.designTitle {
+  text-transform: uppercase;
+  font-size: 2.2rem;
+  line-height: 2.5rem;
+  font-weight: 300;
+  padding-top: 40px;
+}
+
+.MotorContainer {
+  display: flex;
+}
+
+.MotorContainerLeft {
+  display: flex;
+  flex-direction: column;
+  width: 40vw;
+  margin-right: 20px;
+}
+
+.MotorTitle {
+  background-image: url(https://www.bayernkraft.by/assets/img/auto-optimizacii/bmw3/cq5dam.resized.img.1185.large.time1448363648068.jpg);
+  background-size: cover;
+  padding: 20% 40%;
+  text-align: center;
+  color: #fff;
+  font-size: 4.2rem;
+  line-height: 4.5rem;
+  font-weight: 400;
+  width: 100vw;
+  position: fixed;
+  bottom: 10vh;
+  left: 0px;
+  z-index: -2;
+}
+
+.visible {
+  width: 100%;
+  height: 680px;
+  background: transparent;
+  margin-bottom: 30px;
+}
+
+.leftTitle {
+  font-size: 3rem;
+  line-height: 4rem;
+  font-weight: 300;
+  margin-bottom: 20px;
+}
+
+.MotorContainerText {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  font-weight: 300;
+  margin-bottom: 30px;
+}
+
+.imgLeftTop {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.MotorContainerRight {
+  display: flex;
+  flex-direction: column;
+  width: 60vw;
+}
+
+.rightContainerBottom {
+  display: flex;
+}
+
+.rightTopImg {
+  background-image: url(https://www.bmw.by/content/bmw/marketB4R1/bmw_by/ru_BY/all-models/3-series/sedan/2018/bmw-3-series-sedan-inspire/jcr:content/par/mosaicgallery_8135/items/mosaicgalleryitem_d1/image.transform/mosaic963/image.1562609667879.jpg);
+  background-size: cover;
+  width: 100%;
+  height: 90vh;
+  margin-bottom: 20px;
+}
+
+.salon {
+  margin-bottom: 20px;
+  width: 80%;
+}
+
+.bottomLeft {
+  margin-right: 20px;
+}
+
+.bottomRight {
+  height: 30vh;
+}

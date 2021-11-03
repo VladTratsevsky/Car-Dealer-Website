@@ -1,0 +1,71 @@
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+a:hover {
+  color: rgba(255, 255, 255, 0.856);
+}
+
+.container {
+  padding: 0px 10%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100vw;
+}
+
+.navBar {
+  height: 109px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+  background: transparent;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+}
+
+.navLogo {
+  margin: 23px;
+  width: 53px;
+  height: 53px;
+  background-image: url(https://www.bmw.by/etc.clientlibs/ds2-webcomponents/clientlibs/clientlib/resources/img/BMW_White_Logo.svg);
+}
+
+.logolink {
+  padding: 26px;
+}
+
+.navlinks {
+  display: flex;
+  font-size: 1.3rem;
+  line-height: 2rem;
+  font-weight: 700;
+  text-decoration: none;
+  color: #fff;
+  padding-top: 40px;
+  background: transparent;
+}
+
+.navLink {
+  position: relative;
+  padding: 0px 20px;
+  margin-bottom: 1px;
+}
+
+.navLink::after {
+  position: absolute;
+  top: 62px;
+  left: 0;
+  display: inline-block;
+  width: 100%;
+  content: "";
+  border-bottom: 5px solid #0653b6;
+  transform: scaleX(0);
+  transform-origin: right center;
+  transition: transform 0.25s linear;
+}
+
+.navLink:hover::after {
+  transform: scaleX(1);
+  transform-origin: left center;
+}
