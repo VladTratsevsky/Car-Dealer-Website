@@ -10,7 +10,12 @@ export const The3 = () => {
 
   useEffect(() => {
     window.addEventListener("scroll", handleScroll);
+
     return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
+
+  useEffect(() => {
+    window.scrollTo({ top: 0 });
   }, []);
 
   return (
