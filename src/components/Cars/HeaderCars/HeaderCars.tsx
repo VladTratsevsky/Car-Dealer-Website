@@ -1,4 +1,3 @@
-import { NavBar } from "../../Home/Header/NavBar/NavBar";
 import styles from "./HeaderCars.module.css";
 
 export const CarsHeader = () => {

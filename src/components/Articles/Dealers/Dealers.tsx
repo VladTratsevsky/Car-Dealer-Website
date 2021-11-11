@@ -1,6 +1,11 @@
+import { useEffect } from "react";
 import styles from "./Dealers.module.css";
 
 export const Dealers = () => {
+  useEffect(() => {
+    window.scrollTo({ top: 0 });
+  }, []);
+
   return (
     <div>
       <div className={styles.header}>

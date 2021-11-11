@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 import { TestDrive } from "../../Modal/TestDrive/TestDrive";
 import styles from "./CardDescriptionCars.module.css";
 
-const defaultTranslateX = 1600;
+const defaultTranslateX = window.innerWidth;
 
 export const CardDescriptionCars = () => {
   const [translateX, setTranslateX] = useState(0);
@@ -21,7 +21,7 @@ export const CardDescriptionCars = () => {
             model === 3 ? styles["button-active"] : ""
           }`}
           onClick={() => {
-            setTranslateX(1600);
+            setTranslateX(defaultTranslateX);
             setModel(3);
           }}
         >
@@ -44,7 +44,7 @@ export const CardDescriptionCars = () => {
             model === 7 ? styles["button-active"] : ""
           }`}
           onClick={() => {
-            setTranslateX(-1600);
+            setTranslateX(-defaultTranslateX);
             setModel(7);
           }}
         >

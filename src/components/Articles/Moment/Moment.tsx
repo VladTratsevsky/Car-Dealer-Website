@@ -1,6 +1,11 @@
+import { useEffect } from "react";
 import styles from "./Moment.module.css";
 
 export const Moment = () => {
+  useEffect(() => {
+    window.scrollTo({ top: 0 });
+  }, []);
+
   return (
     <div className={styles.container}>
       <div className={styles.header}>
