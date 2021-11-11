@@ -1,5 +1,4 @@
 import { useState } from "react";
-import { NavLink } from "react-router-dom";
 import { TestDrive } from "../../Modal/TestDrive/TestDrive";
 import styles from "./CardLink.module.css";
 import { useHistory } from "react-router-dom";
@@ -40,12 +39,7 @@ export const CardLink = () => {
       <div className={styles.getOfferContainer}>
         <div className={styles.getOffer}>
           <div className={styles.imgOffer}></div>
-          <button
-            className={styles.buttonOffer}
-            onClick={() => {
-              handleClick();
-            }}
-          >
+          <button className={styles.buttonOffer} onClick={() => handleClick()}>
             Получить<br></br> предложение
           </button>
         </div>

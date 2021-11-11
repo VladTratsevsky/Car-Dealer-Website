@@ -79,7 +79,7 @@
 }
 
 .cardMaintenance {
-  width: 100vw;
+  width: 100%;
   height: 40vh;
   display: flex;
 }
@@ -94,7 +94,6 @@
 
 .cardOil {
   width: 100vw;
-  padding: 0px 2%;
   display: flex;
 }
 
@@ -108,7 +107,6 @@
 
 .cardSuspension {
   width: 100vw;
-  padding: 0px 2%;
   display: flex;
 }
 
@@ -122,7 +120,6 @@
 
 .cardBrakes {
   width: 100vw;
-  padding: 0px 2%;
   display: flex;
 }
 
@@ -136,7 +133,6 @@
 
 .cardEngine {
   width: 100vw;
-  padding: 0px 2%;
   display: flex;
 }
 
@@ -150,7 +146,6 @@
 
 .cardTire {
   width: 100vw;
-  padding: 0px 2%;
   display: flex;
 }
 

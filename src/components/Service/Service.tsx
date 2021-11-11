@@ -1,11 +1,15 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import styles from "./Servise.module.css";
 
-const defaultTranslateX = 1800;
+const defaultTranslateX = window.innerWidth;
 
 export const Service = () => {
   const [translateX, setTranslateX] = useState(0);
   const [model, setModel] = useState(1);
+
+  useEffect(() => {
+    window.scrollTo({ top: 0 });
+  }, []);
 
   return (
     <>
@@ -32,7 +36,7 @@ export const Service = () => {
             }`}
             style={{}}
             onClick={() => {
-              setTranslateX(-1790);
+              setTranslateX(-defaultTranslateX);
               setModel(2);
             }}
           >
@@ -43,7 +47,7 @@ export const Service = () => {
               model === 3 ? styles["button-active"] : ""
             }`}
             onClick={() => {
-              setTranslateX(-3390);
+              setTranslateX(-2 * defaultTranslateX);
               setModel(3);
             }}
           >
@@ -54,7 +58,7 @@ export const Service = () => {
               model === 4 ? styles["button-active"] : ""
             }`}
             onClick={() => {
-              setTranslateX(-4990);
+              setTranslateX(-3 * defaultTranslateX);
               setModel(4);
             }}
           >
@@ -65,7 +69,7 @@ export const Service = () => {
               model === 5 ? styles["button-active"] : ""
             }`}
             onClick={() => {
-              setTranslateX(-6590);
+              setTranslateX(-4 * defaultTranslateX);
               setModel(5);
             }}
           >
@@ -76,7 +80,7 @@ export const Service = () => {
               model === 6 ? styles["button-active"] : ""
             }`}
             onClick={() => {
-              setTranslateX(-8190);
+              setTranslateX(-5 * defaultTranslateX);
               setModel(6);
             }}
           >
@@ -88,7 +92,10 @@ export const Service = () => {
             className={styles.containerCardVisible}
             style={{ transform: `translateX(${translateX}px)` }}
           >
-            <div className={styles.cardMaintenance}>
+            <div
+              className={styles.cardMaintenance}
+              style={{ width: window.innerWidth }}
+            >
               <div className={styles.imgMaintenance}></div>
               <div className={styles.description}>
                 <h3 className={styles.descriotionTitle}>Плановое ТО</h3>

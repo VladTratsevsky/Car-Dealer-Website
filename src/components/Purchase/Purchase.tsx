@@ -1,7 +1,11 @@
-import { Header } from "../Home/Header/Header";
+import { useEffect } from "react";
 import styles from "./Purchase.module.css";
 
 export const Purchase = () => {
+  useEffect(() => {
+    window.scrollTo({ top: 0 });
+  }, []);
+
   return (
     <div className={styles.container}>
       <div className={styles.header}></div>
